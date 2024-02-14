@@ -13,7 +13,7 @@ text-align: center;
 font-size: 32px;
 font-family: Georgia, serif;
 }
-img {
+div {
 display: block;
 margin: 0 auto;
 width: 23%;
@@ -22,10 +22,10 @@ width: 23%;
 </head>
 <body>
  <p>
-  Just wondering if you have plans for Feb 14? I’m thinking about doing something with you ;) 
-  Will you be my Valentine?
+  Te queria preguntar si tenes alguna cita a la noche para este 14 de febrero?
+Asi que te quisiera invitar a ver peliculas despues de comer, aceptas???
  </p>
-<img src="https://media.tenor.com/WQjlw86rlpsAAAAC/muah-kiss.gif">
+ <div class="tenor-gif-embed" data-postid="2502142250293835971" data-share-method="host" data-aspect-ratio="1.06867" data-width="24%"><a href="https://tenor.com/view/eandl-gif-2502142250293835971">Eandl GIF</a>from <a href="https://tenor.com/search/eandl-gifs">Eandl GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 </body>
 <title>Buttons</title>
 <style>
@@ -43,22 +43,16 @@ position: absolute;
 </style>
 </head>
 <body>
-<button id="Button1">Yes!</button>
-<button id="Button2">No</button>
+<button id="Button1">Yes! :D</button>
+<button id="Button2">No >:(</button>
 <script>
-const Button2 = document.getElementById('Button2');
-let left = 40;
-Button2.addEventListener('mouseover', function() {
-  if(left == 40){
-    left = 48;
-  }else{
-    left = 40;
-  }
-  this.style.left = left + '%';
+
+Button2.addEventListener('click', function() {
+    alert('Pi pi pi, esta bien yo sabia que habia otro, te dejo volver pensarla si queres ya vas a ver que soy mejor');
 });
 
 document.getElementById('Button1').addEventListener('click', function() {
-    alert('HEHE THANKSSS! I LOVE YOU <3');
+    alert('Posta!? Seeeee sos la mejor, preciosa <3, no te vas a arrepentir');
     window.location.href = 'https://shauuull.github.io/-/'; // Reemplaza esto con tu URL
 });
 </script>
